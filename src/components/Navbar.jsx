@@ -14,7 +14,7 @@ export default function Navbar() {
     <header className='flex justify-between border-b border-gray-300 p-4'>
       <Link to='/' className='flex items-center text-4xl text-brand'>
         <BsFillKeyboardFill />
-        <h1 className='px-2'>TypeStore</h1>
+        <h1 className='px-2 hidden md:block'>TypeStore</h1>
       </Link>
       <nav className='flex items-center gap-4 font-semibold'>
         <Link to='/products'>Products</Link>
